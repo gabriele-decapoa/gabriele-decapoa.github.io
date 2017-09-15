@@ -15,14 +15,14 @@ First approach with asynchronous function in Node.js are **callback** functions.
 
 Usually, they are the last parameter of a function and they are used to get results of operations (typically I/O) that you want to have without blocking execution. A common callback function signature is
 
-```Javascript
+```javascript
 callback(error, response)
 ```
 
 It's very simple to create a callback function, and Node.js handles all the invocation of callbacks with its Event Loop, queueing a frame for each function and managing them one by one.
 The drawback is the so-called *callback hell*.
 
-```Javascript
+```javascript
 fs.readFile(nameFile, function(error, response) {
     readLine(response, function(error, line) {
         ...
@@ -38,7 +38,7 @@ Starting from ECMAScript 6, Javascript allow to use a new construct: *promises*.
 
 Using promises you could write a more readable code, like this:
 
-```Javascript
+```javascript
 fs.readFile(nameFile).then(function(response) {
     return readLine(response);
 }).then(function(line){
