@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding asynchronous call in Node.js: callbacks and promises
+title: Understanding asynchronous call in Node.js - callbacks and promises
 ---
 
 If programming languages you know are C-style (like Java or C++), so you know imperative and/or object-oriented programming, when you start to develop in Node.js you could be a little bit confused.
