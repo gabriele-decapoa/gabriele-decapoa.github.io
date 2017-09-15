@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: gabriele-decapoa
   instagram:
-  linkedin: in/gabriele-de-capoa-456bb5a9/
+  linkedin: gabriele-de-capoa-456bb5a9
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://gabriele-decapoa.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -70,7 +70,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
