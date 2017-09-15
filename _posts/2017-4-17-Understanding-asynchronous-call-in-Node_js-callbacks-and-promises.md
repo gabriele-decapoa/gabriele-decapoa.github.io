@@ -9,7 +9,7 @@ Synchronous call are predominant into these kind of languages, but not into Node
 
 Node.js is based on Javascript and it is created to develop mostly web applications, so performance and scalability are very important. You should understand very well asynchronous call to create a performant application in Node.js
 
-##Callbacks
+## Callbacks
 
 First approach with asynchronous function in Node.js are **callback** functions.
 
@@ -32,7 +32,7 @@ fs.readFile(nameFile, function(error, response) {
 In the above example I've nested only two function, but if you write a lot of nested functions, your code will be unreadable.
 
 
-##Promises
+## Promises
 
 Starting from ECMAScript 6, Javascript allow to use a new construct: *promises*. A promise is like a Future in Java, an object that is a placeholder for the result.
 

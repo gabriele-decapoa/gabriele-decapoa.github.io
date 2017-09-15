@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a cloud sofware engineer, with a big passion on database world and to share my knowledge with people.
 
 [comment]: # (### Contact me email@domain.com)
