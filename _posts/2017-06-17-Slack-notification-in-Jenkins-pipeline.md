@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Slack notification in Jenkins pipeline
+categories:
+  - Jenkins
+  - Slack
+  - pipeline
+  - notification
 ---
 
 I'm starting to approach to CI/CD world and I found [Jenkins](https://jenkins.io/) is a good tool.

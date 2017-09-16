@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Logging in Node.js for enterprise application
+categories:
+  - Node.js
+  - logging
+  - log4js
 ---
 
 There are many packages that allows logging into a Node.js application: [winston](https://github.com/winstonjs/winston), [morgan](https://github.com/expressjs/morgan), etc.

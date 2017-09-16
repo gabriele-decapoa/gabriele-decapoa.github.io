@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Elasticsearch grouping queries
+categories:
+  - Elasticsearch
+  - grouping
 ---
 
 Working with [Elasticsearch](https://www.elastic.co/products/elasticsearch) and doing some analytics on data stored in that, sometimes I had to perform some queries that in SQL are very simple, like
