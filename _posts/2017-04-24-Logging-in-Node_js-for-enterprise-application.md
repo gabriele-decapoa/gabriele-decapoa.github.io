@@ -19,4 +19,4 @@ var logger = log4js.getLogger();
 logger.debug("Some debug messages");
 ```
 
-In addition, this library allows to write log message using different log level (INFO, DEBUG, WARN, etc.), so it is possible to run an application in production environment removing all log messages useful during development without removing them from source code.
+In addition, this library allows to write log message using different log level (`INFO`, `DEBUG`, `WARN`, etc.), so it is possible to run an application in production environment removing all log messages useful during development without removing them from source code.
