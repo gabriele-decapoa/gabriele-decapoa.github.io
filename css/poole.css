@@ -428,3 +428,10 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.post-categories {
+  font-style: italic;
+  color: #9a9a9a;
+  text-align: right;
+  font-size: 12px;
+}

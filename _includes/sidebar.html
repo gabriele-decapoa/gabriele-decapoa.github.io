@@ -4,6 +4,16 @@
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
+      <div class="sidebar-about">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <h1>{{ site.name }}</h1>
+        <p class="lead">{{ site.description }}</p>
+        <nav>
+          <a href="{{ site.baseurl }}/">Blog</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+      </div>
+
       <ul>
       {% assign categories_list = site.categories %}
         {% if categories_list.first[0] == null %}
@@ -19,6 +29,14 @@
       </ul>
 
     </nav>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
 
   </div>
 </div>
