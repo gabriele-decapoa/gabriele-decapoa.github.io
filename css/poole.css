@@ -440,7 +440,28 @@ a.pagination-item:hover {
   font-size: 12px;
 }
 
+.sidebar-categories h3 {
+  font-size: 20px;
+}
+
 .footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
 }
