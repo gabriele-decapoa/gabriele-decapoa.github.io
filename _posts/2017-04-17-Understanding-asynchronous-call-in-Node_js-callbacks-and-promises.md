@@ -2,7 +2,7 @@
 layout: post
 title: Understanding asynchronous call in Node.js - callbacks and promises
 categories:
-  - Node.js
+  - Node_js
   - callback
   - promise
 ---
