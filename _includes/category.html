@@ -1,0 +1,18 @@
+<h1 class="page-title">{{ page.tag | capitalize }} </h3>
+{% assign category = site.categories %}
+{% for tag in category %}
+  {% if tag[0] == page.tag %}
+    {% assign pages_list = tag[1] %}
+    <ul>
+      {% for post in pages_list %}
+        {% if post.title != null %}
+          {% if group == null or group == post.group %}
+            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }} (<span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span></a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+    </ul>
+  {% endif %}
+{% endfor %}

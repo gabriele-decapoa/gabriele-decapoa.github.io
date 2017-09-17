@@ -3,21 +3,4 @@ layout: default
 tag: callback
 permalink: "/category/callback"
 ---
-<h1 class="page-title">{{ page.tag | capitalize }} </h3>
-{% assign category = site.categories %}
-{% for tag in category %}
-  {% if tag[0] == page.tag %}
-    {% assign pages_list = tag[1] %}
-    <ul>
-      {% for post in pages_list %}
-        {% if post.title != null %}
-          {% if group == null or group == post.group %}
-            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-    </ul>
-  {% endif %}
-{% endfor %}
+{% include category.html %}
