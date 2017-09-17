@@ -7,6 +7,7 @@ permalink: "/category/callback"
   {% assign category_index = site.categories %}
   {% for tag in category_index %}
   - {{ tag }}
+  {% endfor %}
   {% assign pages_list = tag[1] %}
     {% for post in pages_list %}
       {% if post.title != null %}
