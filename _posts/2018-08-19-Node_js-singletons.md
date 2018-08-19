@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improving memory footprint in Node.js: using Singleton pattern
+title: Improving memory footprint in Node.js using Singleton pattern
 categories:
   - Node_js
 ---
