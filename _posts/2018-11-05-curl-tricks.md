@@ -13,6 +13,7 @@ Sometimes, inside a BASH script you have to use `curl`: this command-line tool a
 The standard use of this tool does not allow to verify response code, but this could be useful during debug or if your script must run in an automated way.
 So here a list of useful options you can use for those purpose:
 - `-i` allows to visualize HTTP/HTTPS response headers
+
 ```bash
 $ curl -i http://www.example.com
   HTTP/1.1 200 OK
@@ -79,6 +80,7 @@ $ curl -i http://www.example.com
   </html>
 ```
 - `-v` make the output verbose --- you can put at most three `v` making the output as verbose as possible
+
 ```bash
 $ curl -vvv http://www.example.com
   * Rebuilt URL to: http://www.example.com/
@@ -154,8 +156,10 @@ $ curl -vvv http://www.example.com
   </html>
   * Connection #0 to host www.example.com left intact
 ```
+
 - `-o` allows to write the output to a specific file (or files)
 - `-w` allows to display information on stdout after a completed transfer
+
 ```bash
 $ HTTP_RESPONSE=$(mktemp)
 $ HTTP_STATUS=$(curl -w '%{http_code}\n' -o ${HTTP_RESPONSE} "http://www.example.com")
