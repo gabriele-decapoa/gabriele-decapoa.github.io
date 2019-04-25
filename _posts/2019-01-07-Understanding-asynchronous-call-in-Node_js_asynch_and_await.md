@@ -2,11 +2,12 @@
 layout: post
 title: Understanding asynchronous call in Node.js - async and await
 categories:
+  - programming_languages
   - Node_js
   - asynchronous
 ---
 
-As explained in [this post](https://gabriele-decapoa.github.io/2017/04/17/Understanding-asynchronous-call-in-Node_js-callbacks-and-promises/), Node.js' performance will be very good if the source code this framework will run is asynchronous.
+As explained in [this post]({% link _posts/2017-04-17-Understanding-asynchronous-call-in-Node_js-callbacks-and-promises.md %}), Node.js' performance will be very good if the source code this framework will run is asynchronous.
 This is why, starting from version 6, ECMAScript language (the "father" of Javascript, and then of Node.js) adds some "programmer's help" to make more easy-to-read an asynchronous code (e.g promises).  
 Starting from ECMAScript 8, a new syntax was added: `asynch` and `await`.
 

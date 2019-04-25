@@ -2,6 +2,7 @@
 layout: post
 title: Logging in Node.js for enterprise application
 categories:
+  - programming_languages
   - Node_js
   - logging
   - log4js

@@ -2,6 +2,7 @@
 layout: post
 title: Improving memory footprint in Node.js using Singleton pattern
 categories:
+  - programming_languages
   - Node_js
 ---
 
