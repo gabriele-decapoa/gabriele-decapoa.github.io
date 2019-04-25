@@ -4,6 +4,8 @@ title: curl tricks
 categories:
   - devops
   - bash
+  - Unix
+  - network
 ---
 
 BASH scripts are the most usefult things in DevOps world.  
