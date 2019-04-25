@@ -6,7 +6,7 @@ categories:
   - grouping
 ---
 
-In [another post]({%  _posts/2017-09-16-Elasticsearch-grouping-queries.md %}) I show how to convert SQL queries like
+In [another post]({% link _posts/2017-09-16-Elasticsearch-grouping-queries.md %}) I show how to convert SQL queries like
 
 ```sql
 SELECT fieldName, COUNT(*)
