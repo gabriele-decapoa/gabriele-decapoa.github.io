@@ -3,7 +3,7 @@ layout: post
 title: How to create your first application in Node.js
 categories:
   - Node_js
-  - programming languages
+  - programming_languages
 ---
 
 [Node.js](https://nodejs.org/en/) is a language very powerful.  

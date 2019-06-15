@@ -3,7 +3,7 @@ layout: post
 title: How to create your first application with Node.js and Express
 categories:
   - Node_js
-  - programming languages
+  - programming_languages
 ---
 
 As we see in [this article]({% link _posts/2019-05-07-Node-js-first-application.md %}), [Node.js](https://nodejs.org/en/) is a language very powerful, but it has not an application server embedded.  

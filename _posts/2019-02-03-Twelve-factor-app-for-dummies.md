@@ -4,7 +4,6 @@ title: The 12-factor app for dummies
 categories:
   - Cloud_development
   - Best_practices
-  - 12-factor
 ---
 
 One of the best methodologies for software development I have seen in last years is the [12-factor app](https://12factor.net).  
