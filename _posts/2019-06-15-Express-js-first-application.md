@@ -6,7 +6,7 @@ categories:
   - programming languages
 ---
 
-As we see in [this article]({% link _post/2019-05-07-Node-js-first-application.md %}), [Node.js](https://nodejs.org/en/) is a language very powerful, but it has not an application server embedded.  
+As we see in [this article]({% link _posts/2019-05-07-Node-js-first-application.md %}), [Node.js](https://nodejs.org/en/) is a language very powerful, but it has not an application server embedded.  
 To expose your application on the Internet, you need an application server, and the most used, well documented and simple is Express.
 
 [Express](https://expressjs.com) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.  
