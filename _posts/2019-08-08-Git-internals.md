@@ -15,8 +15,8 @@ Git, as we know, is a fully distributed SCM, and each developer that works on th
 
 But how data are stored internally?
 
-![Git snapshot](/images/Git-snapshot.jpg)
-*
+![Git snapshot](/images/Git-snapshot.png)
+
 Git thinks of its data like a set of *snapshots* of a miniature filesystems.
 If a file has not changed, Git does not store it again but create a link to the previous version.
 Everything is check-summed before it is stored and it is referred to by that checksum.  
