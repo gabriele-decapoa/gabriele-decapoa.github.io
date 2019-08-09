@@ -21,8 +21,6 @@ categories:
 
 ### `arp`
 
-### `dig`
-
 ### `nslookup`
 
 ### `ss`
@@ -30,4 +28,6 @@ categories:
 ### `ethtool`
 
 ### `ip`
+
+### `whois`
 
