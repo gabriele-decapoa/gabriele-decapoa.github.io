@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create your first application with Node.js and Express
+title: How to create your first web application with Node.js and Express
 categories:
   - Node_js
   - programming_languages

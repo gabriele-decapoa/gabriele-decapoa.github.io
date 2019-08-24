@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The core of al programming languages, or memory management
+title: The core of all programming languages, or memory management
 categories:
   - programming_languages
 ---
