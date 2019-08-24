@@ -7,7 +7,7 @@ categories:
   - network
 ---
 
-After the [first part]({% link _posts/2019-08-12-debug-network-in-unix-part-1.md %}), here a second command I frequently use to check network issues: `ping`.
+After the [first part]({% link _posts/2019-08-12-debug-network-in-unix-part-1-dig.md %}), here a second command I frequently use to check network issues: `ping`.
 
 With `ping` you could test, more or less, host reachability.
 I am saying _more or less_ because it depends on the internals of `ping` and the configuration of host.  
