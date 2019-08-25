@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin: gabriele-de-capoa-456bb5a9
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: feed.xml
   twitter: GabrieledeCapoa
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
