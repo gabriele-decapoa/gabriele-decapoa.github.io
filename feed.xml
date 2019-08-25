@@ -8,13 +8,15 @@ layout: none
     <title>{{ site.name | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
+    <updated>{{ site.time | date_to_xmlschema }}
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
         <link>{{ site.url }}/{{ post.url }}</link>
+        <description>{{ post.content | strip | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
       </item>
     {% endfor %}
