@@ -9,12 +9,23 @@ layout: none
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ"  }}</atom:updated>
-    <atom:link href="{{ site.url }}feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url | absolute_url}}/feed.xml" rel="self" type="application/rss+xml" />
+    {% if site.author %}
+    <author>
+        <name>{{ site.author.name | default: site.author | xml_escape }}</name>
+      {% if site.author.email %}
+        <email>{{ site.author.email | xml_escape }}</email>
+      {% endif %}
+      {% if site.author.uri %}
+        <uri>{{ site.author.uri | xml_escape }}</uri>
+      {% endif %}
+    </author>
+    {% endif %}
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
-        <description type="html">{{ post.content | strip | xml_escape }}</description>
+        <atom:content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ post.content | strip | xml_escape }}</atom:content>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z"  }}</pubDate>
         <atom:updated>{{ post.last_modified_at | default: post.date | date: "%Y-%m-%dT%H:%M:%SZ"  }}</atom:updated>
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
