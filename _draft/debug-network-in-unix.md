@@ -11,8 +11,6 @@ categories:
 
 ### `netstat`
 
-### `ping`
-
 ### `traceroute`
 
 ### `tcpdump`
@@ -28,6 +26,4 @@ categories:
 ### `ethtool`
 
 ### `ip`
-
-### `whois`
 
