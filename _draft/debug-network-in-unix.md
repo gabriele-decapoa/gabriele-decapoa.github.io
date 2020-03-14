@@ -26,5 +26,3 @@ categories:
 ### `ethtool`
 
 ### `ip`
-
-### `openssl`
