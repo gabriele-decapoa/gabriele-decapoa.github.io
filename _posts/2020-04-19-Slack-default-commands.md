@@ -2,7 +2,7 @@
 layout: post
 title: Have fun with Slack default commands
 categories:
-  - Slack
+  - collaboration
 ---
 
 The way we work is continuously changing: we need to interact with each other more frequently, in an asynchronous mode, in any different place.
