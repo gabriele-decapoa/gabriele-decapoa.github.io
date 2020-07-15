@@ -19,8 +19,6 @@ categories:
 
 ### `arp`
 
-### `nslookup`
-
 ### `ss`
 
 ### `ethtool`
