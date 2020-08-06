@@ -11,8 +11,6 @@ categories:
 
 ### `netstat`
 
-### `traceroute`
-
 ### `tcpdump`
 
 ### `iptables`
