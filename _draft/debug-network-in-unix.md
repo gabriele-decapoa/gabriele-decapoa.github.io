@@ -13,8 +13,6 @@ categories:
 
 ### `tcpdump`
 
-### `iptables`
-
 ### `arp`
 
 ### `ss`
