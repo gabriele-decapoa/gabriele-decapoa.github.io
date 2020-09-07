@@ -7,16 +7,6 @@ categories:
   - network
 ---
 
-### `ifconfig`
-
-### `netstat`
-
 ### `tcpdump`
 
-### `arp`
-
-### `ss`
-
 ### `ethtool`
-
-### `ip`
