@@ -85,7 +85,6 @@ kramdown:
 gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-gist # Allow to use Gist in Jekyll posts
-  - jekyll-time-to-read # indicate the time it takes to read an article
 
 # Exclude these files from your production _site
 exclude:
