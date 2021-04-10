@@ -13,7 +13,7 @@ This is a new post of this series about container world.
 Here the list of previous posts.
 
 * [Basic concepts]({% link _posts/2021-01-31-containers-world-1-basics.md %})
-* [Benefits]({% link _posts/2021-03-13-containers-world-2-benefist.md %})
+* [Benefits]({% link _posts/2021-03-13-containers-world-2-benefits.md %})
 
 ---
 
