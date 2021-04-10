@@ -23,9 +23,10 @@ layout: default
         {{ content }}
     </div>
 
-    <div class="post-date">
-        {{ page.date | date: "%B %e, %Y" }}
-    </div>
+
+    <div class="postmetadata">
+        Posted on <span class="updated">{{ page.date | date: "%B %e, %Y" }}</span> 
+      </div>
 
     {% include disqus.html %}
 </article>
